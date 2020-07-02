@@ -19,12 +19,12 @@ namespace fukuv0702
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Visible = false;
+            button1.Text="押された";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button2.Text ="押された";
+            button2.Visible=false;
         }
     }
 }
